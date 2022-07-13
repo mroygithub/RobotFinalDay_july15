@@ -28,6 +28,9 @@ Validate_CheckBox_Checked_Or_Not_09876
     Sleep    10
 
 
+    # /Users/mithunroy/Documents/Robot_Training/selenium-screenshot-1.png
+
+
 
 
 
