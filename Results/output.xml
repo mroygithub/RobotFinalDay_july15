@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.2 on darwin)" generated="20220712 09:20:12.832" rpa="false" schemaversion="3">
+<suite id="s1" name="RunByTag Doc1 copy 2 &amp; RunByTag Doc1 copy 3 &amp; RunByTag Doc1 copy &amp; RunByTag Doc1">
+<suite id="s1-s1" name="RunByTag Doc1 copy 2" source="/Users/mithunroy/Documents/Robot_Training/TestScripts/RunByTag_Doc1 copy 2.robot">
+<test id="s1-s1-t1" name="Google_Home_Page1" line="9">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.083" endtime="20220712 09:20:13.084"/>
+</kw>
+<doc>As a user I am validating google url1 , Title1 , Buttons1 , text Boxes1</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.081" endtime="20220712 09:20:13.085"/>
+</test>
+<test id="s1-s1-t2" name="Google_Home_Page4" line="29">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 4</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.106" endtime="20220712 09:20:13.106"/>
+</kw>
+<doc>As a user I am validating google url4 , Title4 , Buttons4 , text Boxes4</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.087" endtime="20220712 09:20:13.107"/>
+</test>
+<test id="s1-s1-t3" name="Google_Home_Page8" line="55">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 8</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.111" endtime="20220712 09:20:13.111"/>
+</kw>
+<doc>As a user I am validating google url8 , Title8 , Buttons8 , text Boxes8</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.109" endtime="20220712 09:20:13.115"/>
+</test>
+<test id="s1-s1-t4" name="Google_Home_Page12" line="82">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 12</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.116" endtime="20220712 09:20:13.117"/>
+</kw>
+<doc>As a user I am validating google url12 , Title12 , Buttons12 , text Boxes12</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.116" endtime="20220712 09:20:13.117"/>
+</test>
+<status status="PASS" starttime="20220712 09:20:13.075" endtime="20220712 09:20:13.118"/>
+</suite>
+<suite id="s1-s2" name="RunByTag Doc1 copy 3" source="/Users/mithunroy/Documents/Robot_Training/TestScripts/RunByTag_Doc1 copy 3.robot">
+<test id="s1-s2-t1" name="Google_Home_Page1" line="9">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.336" endtime="20220712 09:20:13.337"/>
+</kw>
+<doc>As a user I am validating google url1 , Title1 , Buttons1 , text Boxes1</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.334" endtime="20220712 09:20:13.340"/>
+</test>
+<test id="s1-s2-t2" name="Google_Home_Page4" line="29">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 4</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.349" endtime="20220712 09:20:13.349"/>
+</kw>
+<doc>As a user I am validating google url4 , Title4 , Buttons4 , text Boxes4</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.347" endtime="20220712 09:20:13.351"/>
+</test>
+<test id="s1-s2-t3" name="Google_Home_Page8" line="55">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 8</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.355" endtime="20220712 09:20:13.355"/>
+</kw>
+<doc>As a user I am validating google url8 , Title8 , Buttons8 , text Boxes8</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.352" endtime="20220712 09:20:13.356"/>
+</test>
+<test id="s1-s2-t4" name="Google_Home_Page12" line="82">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 12</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.359" endtime="20220712 09:20:13.360"/>
+</kw>
+<doc>As a user I am validating google url12 , Title12 , Buttons12 , text Boxes12</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.358" endtime="20220712 09:20:13.361"/>
+</test>
+<status status="PASS" starttime="20220712 09:20:13.120" endtime="20220712 09:20:13.367"/>
+</suite>
+<suite id="s1-s3" name="RunByTag Doc1 copy" source="/Users/mithunroy/Documents/Robot_Training/TestScripts/RunByTag_Doc1 copy.robot">
+<test id="s1-s3-t1" name="Google_Home_Page1" line="9">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.381" endtime="20220712 09:20:13.381"/>
+</kw>
+<doc>As a user I am validating google url1 , Title1 , Buttons1 , text Boxes1</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.379" endtime="20220712 09:20:13.382"/>
+</test>
+<test id="s1-s3-t2" name="Google_Home_Page4" line="29">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 4</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.384" endtime="20220712 09:20:13.385"/>
+</kw>
+<doc>As a user I am validating google url4 , Title4 , Buttons4 , text Boxes4</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.383" endtime="20220712 09:20:13.386"/>
+</test>
+<test id="s1-s3-t3" name="Google_Home_Page8" line="55">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 8</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.392" endtime="20220712 09:20:13.394"/>
+</kw>
+<doc>As a user I am validating google url8 , Title8 , Buttons8 , text Boxes8</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.387" endtime="20220712 09:20:13.396"/>
+</test>
+<test id="s1-s3-t4" name="Google_Home_Page12" line="82">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 12</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.536" endtime="20220712 09:20:13.540"/>
+</kw>
+<doc>As a user I am validating google url12 , Title12 , Buttons12 , text Boxes12</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.412" endtime="20220712 09:20:13.544"/>
+</test>
+<status status="PASS" starttime="20220712 09:20:13.373" endtime="20220712 09:20:13.544"/>
+</suite>
+<suite id="s1-s4" name="RunByTag Doc1" source="/Users/mithunroy/Documents/Robot_Training/TestScripts/RunByTag_Doc1.robot">
+<test id="s1-s4-t1" name="Google_Home_Page1" line="9">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.562" endtime="20220712 09:20:13.564"/>
+</kw>
+<doc>As a user I am validating google url1 , Title1 , Buttons1 , text Boxes1</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.558" endtime="20220712 09:20:13.564"/>
+</test>
+<test id="s1-s4-t2" name="Google_Home_Page4" line="29">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 4</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.565" endtime="20220712 09:20:13.568"/>
+</kw>
+<doc>As a user I am validating google url4 , Title4 , Buttons4 , text Boxes4</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.565" endtime="20220712 09:20:13.568"/>
+</test>
+<test id="s1-s4-t3" name="Google_Home_Page8" line="55">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 8</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.571" endtime="20220712 09:20:13.571"/>
+</kw>
+<doc>As a user I am validating google url8 , Title8 , Buttons8 , text Boxes8</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.569" endtime="20220712 09:20:13.573"/>
+</test>
+<test id="s1-s4-t4" name="Google_Home_Page12" line="82">
+<kw name="Log To Console" library="BuiltIn">
+<arg>This is Smoke Test Case 12</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220712 09:20:13.575" endtime="20220712 09:20:13.575"/>
+</kw>
+<doc>As a user I am validating google url12 , Title12 , Buttons12 , text Boxes12</doc>
+<tag>Smoke</tag>
+<status status="PASS" starttime="20220712 09:20:13.574" endtime="20220712 09:20:13.576"/>
+</test>
+<status status="PASS" starttime="20220712 09:20:13.545" endtime="20220712 09:20:13.578"/>
+</suite>
+<status status="PASS" starttime="20220712 09:20:12.835" endtime="20220712 09:20:13.580"/>
+</suite>
+<statistics>
+<total>
+<stat pass="16" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="16" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat pass="16" fail="0" skip="0" id="s1" name="RunByTag Doc1 copy 2 &amp; RunByTag Doc1 copy 3 &amp; RunByTag Doc1 copy &amp; RunByTag Doc1">RunByTag Doc1 copy 2 &amp; RunByTag Doc1 copy 3 &amp; RunByTag Doc1 copy &amp; RunByTag Doc1</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s1" name="RunByTag Doc1 copy 2">RunByTag Doc1 copy 2 &amp; RunByTag Doc1 copy 3 &amp; RunByTag Doc1 copy &amp; RunByTag Doc1.RunByTag Doc1 copy 2</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s2" name="RunByTag Doc1 copy 3">RunByTag Doc1 copy 2 &amp; RunByTag Doc1 copy 3 &amp; RunByTag Doc1 copy &amp; RunByTag Doc1.RunByTag Doc1 copy 3</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s3" name="RunByTag Doc1 copy">RunByTag Doc1 copy 2 &amp; RunByTag Doc1 copy 3 &amp; RunByTag Doc1 copy &amp; RunByTag Doc1.RunByTag Doc1 copy</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s4" name="RunByTag Doc1">RunByTag Doc1 copy 2 &amp; RunByTag Doc1 copy 3 &amp; RunByTag Doc1 copy &amp; RunByTag Doc1.RunByTag Doc1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

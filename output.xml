@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.2 on darwin)" generated="20220713 12:48:01.988" rpa="false" schemaversion="3">
+<suite id="s1" name="Setupteardown" source="/Users/mithunroy/Documents/Robot_Training/TestScripts/setupteardown.robot">
+<test id="s1-t1" name="Validate_CheckBox_Checked_Or_Not_09876" line="18">
+<kw name="Launch_My_Browser" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://the-internet.herokuapp.com/upload</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220713 12:48:02.656" level="INFO">Opening browser 'Chrome' to base url 'https://the-internet.herokuapp.com/upload'.</msg>
+<status status="PASS" starttime="20220713 12:48:02.656" endtime="20220713 12:48:10.168"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220713 12:48:10.169" endtime="20220713 12:48:10.316"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220713 12:48:12.317" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20220713 12:48:10.316" endtime="20220713 12:48:12.318"/>
+</kw>
+<status status="PASS" starttime="20220713 12:48:02.654" endtime="20220713 12:48:12.318"/>
+</kw>
+<kw name="My Imahe Path" library="pom">
+<var>${myImagePath}</var>
+<arg>selenium-screenshot-5.png</arg>
+<msg timestamp="20220713 12:48:12.319" level="INFO">${myImagePath} = /Users/mithunroy/Documents/Robot_Training/selenium-screenshot-5.png</msg>
+<status status="PASS" starttime="20220713 12:48:12.319" endtime="20220713 12:48:12.320"/>
+</kw>
+<kw name="Choose File" library="SeleniumLibrary">
+<arg>file-upload</arg>
+<arg>${myImagePath}</arg>
+<doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
+<msg timestamp="20220713 12:48:12.321" level="INFO">Sending /Users/mithunroy/Documents/Robot_Training/selenium-screenshot-5.png to browser.</msg>
+<status status="PASS" starttime="20220713 12:48:12.320" endtime="20220713 12:48:12.430"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220713 12:48:16.437" level="INFO">Slept 4 seconds</msg>
+<status status="PASS" starttime="20220713 12:48:12.435" endtime="20220713 12:48:16.437"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>file-submit</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220713 12:48:16.439" level="INFO">Clicking element 'file-submit'.</msg>
+<status status="PASS" starttime="20220713 12:48:16.438" endtime="20220713 12:48:17.764"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220713 12:48:27.765" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20220713 12:48:17.764" endtime="20220713 12:48:27.765"/>
+</kw>
+<kw name="Close_My_Browser" type="TEARDOWN">
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20220713 12:48:27.768" endtime="20220713 12:48:27.925"/>
+</kw>
+<status status="PASS" starttime="20220713 12:48:27.766" endtime="20220713 12:48:27.925"/>
+</kw>
+<status status="PASS" starttime="20220713 12:48:02.653" endtime="20220713 12:48:27.926"/>
+</test>
+<status status="PASS" starttime="20220713 12:48:02.001" endtime="20220713 12:48:27.943"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Setupteardown">Setupteardown</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
