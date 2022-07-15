@@ -18,5 +18,14 @@ def myImahePath(imageName):
     return path    
 
 
+def home_footer_xpath(linkName):
+    return "//div[@class='footer__links']//a[text()='"+linkName+"']"     
+
+# List Down all page objets for Kubernetes Application ...
+
+Kubernetes_lgog = "(//a[@class='navbar-brand'])[1]"
+Training_Link="//ul/li[3]/a[text()='Training']"
+gitLink_xpath="(((//ul[@class='list-inline mb-0'])[2])/li)[1]"
+giturlstring="kubernetes"
 
 
